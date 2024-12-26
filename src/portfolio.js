@@ -26,7 +26,7 @@ const greeting = {
     "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1TSnV9DpMesbOhsPuRn3HHtH7BlOS7aZj/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/143AxkNoiewGZ7WvF5oxqcLM2-AZP9Uvc/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -55,10 +55,10 @@ const skillsSection = {
     ),
     emoji(
       "⚡ Create and deploy backend servecies using Node for large scale user handle"
+    ),
+    emoji(
+      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
     )
-    // emoji(
-    //   "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-    // )
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -139,11 +139,11 @@ const techStack = {
   experience: [
     {
       Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      progressPercentage: "80%" //Insert relative proficiency in percentage
     },
     {
       Stack: "Backend(Node.js)",
-      progressPercentage: "70%"
+      progressPercentage: "90%"
     },
     {
       Stack: "React-Native",
@@ -151,7 +151,7 @@ const techStack = {
     },
     {
       Stack: "Programming(DS & algos)",
-      progressPercentage: "60%"
+      progressPercentage: "70%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -164,9 +164,20 @@ const workExperiences = {
   experience: [
     {
       role: "Software Developer Engineer",
+      company: "AnalyticsLiv Digital",
+      companylogo: require("./assets/images/AnalyticsLiv.png"),
+      date: "April 2024 – Present",
+      desc: "Led a team to develop an automated software tool for DV360 campaign management, enhancing efficiency and accuracy in campaign operations.",
+      descBullets: [
+        "Integrated notification system within the tool to send real-time updates and alerts on campaign expenses and performance directly to users emails.",
+        "Optimized system performance through continuous monitoring and enhancement, significantly reducing manual workload and operational costs."
+      ]
+    },
+    {
+      role: "Web developer",
       company: "Brimo Software Solution",
       companylogo: require("./assets/images/brimo_logo.jpeg"),
-      date: "May 2023 – Present",
+      date: "May 2023 – March 2024",
       desc: "Led holistic management with a focus on tracking client sales, encompassing conversion sessions for various brands, including PLIX.(Frontend and Backend Both)",
       descBullets: [
         "Implemented Kafka in Node.js to track user sessions and page views on an e-commerce store.",
