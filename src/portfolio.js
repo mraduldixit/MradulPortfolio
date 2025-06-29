@@ -20,22 +20,22 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Atul Verma",
-  title: "Hi all, I'm Atul",
+  username: "Mradul Dixit",
+  title: "Hi all, I'm Mradul",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "A passionate Frontend Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / React Native and some other cool libraries and frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/143AxkNoiewGZ7WvF5oxqcLM2-AZP9Uvc/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1jPkIcn3fsGpNILlB1Z33pbhDeCJGhsJR/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/vermaAtul1520",
-  linkedin: "https://www.linkedin.com/in/atul-kumar-verma-1514121a3/",
-  gmail: "atulverma1520@gmail.com",
+  github: "https://github.com/mraduldixit",
+  linkedin: "https://www.linkedin.com/in/mradul-dixit-profile/",
+  gmail: "mraduldixit2002@gmail.com",
   // facebook: "https://www.facebook.com/saad.pasta7",
   // stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
   // Instagram, Twitter and Kaggle are also supported in the links!
@@ -48,13 +48,10 @@ const socialMediaLinks = {
 const skillsSection = {
   title: "What I do",
   subTitle:
-    "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE AND WANT TO DIVE INTO TECH",
+    "CRAZY FRONTEND DEVELOPER WHO WANTS TO EXPLORE AND WANT TO DIVE INTO TECH",
   skills: [
     emoji(
       "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
-    ),
-    emoji(
-      "⚡ Create and deploy backend servecies using Node for large scale user handle"
     ),
     emoji(
       "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
@@ -111,22 +108,22 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Institute of Engineering and Technology (IET), Sitapur",
+      schoolName: "Institute of Engineering and Technology (IET), Lucknow",
       logo: require("./assets/images/iet_logo.jpeg"),
-      subHeader: "Bachelor of Technology in Computer Science",
-      duration: "September 2019 - April 2023",
-      desc: "Part of PARMART a social club and hold Secratory post at MEF"
+      subHeader: "Bachelor of Technology in Information Technology",
+      duration: "August 2019 - June 2023",
+      desc: "Part of Fractal a coding club."
       // descBullets: [
       //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
       // ]
     },
     {
-      schoolName: "S.V.N.I.C kalan Sultanpur",
-      logo: require("./assets/images/svnic_logo.jpeg"),
+      schoolName: "Gopal Inter College",
+      logo: require("./assets/images/Gopal.jpg"),
       subHeader: "Schooling from 8-12",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 9th in ditrict in class 10th and achive 85% marks in 12th"
+      duration: "September 2014 - April 2018",
+      desc: "Got 87% in 10th & 86% marks in 12th grade"
       // descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
     }
   ]
@@ -143,7 +140,7 @@ const techStack = {
     },
     {
       Stack: "Backend(Node.js)",
-      progressPercentage: "90%"
+      progressPercentage: "50%"
     },
     {
       Stack: "React-Native",
@@ -151,7 +148,7 @@ const techStack = {
     },
     {
       Stack: "Programming(DS & algos)",
-      progressPercentage: "70%"
+      progressPercentage: "90%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -163,33 +160,30 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Developer Engineer",
-      company: "AnalyticsLiv Digital",
-      companylogo: require("./assets/images/AnalyticsLiv.png"),
-      date: "April 2024 – Present",
-      desc: "Led a team to develop an automated software tool for DV360 campaign management, enhancing efficiency and accuracy in campaign operations.",
+      role: "Software Engineer",
+      company: "Western Union",
+      companylogo: require("./assets/images/WesternUnion.jpg"),
+      date: "August 2023 – Present",
+      desc: "Frontend (React.js/Next.js/Redux/Jest/JavaScript/SaaS",
       descBullets: [
-        "Integrated notification system within the tool to send real-time updates and alerts on campaign expenses and performance directly to users emails.",
-        "Optimized system performance through continuous monitoring and enhancement, significantly reducing manual workload and operational costs."
+        "Integrated Apple Pay for the UAE corridor, expanding digital payment options and improving user experience in a key market.",
+        "Embedded third-party SDKs like Quantum Metric, Amplitude, Optimizely, and Blaze to support session tracking event logging, and user verification for 80k+ users, improving analytics accuracy and CX.",
+        "Upgraded React and related dependencies, resolving X-Ray compatibility issues and reducing build errors by 40%.",
+        "Enabled multi-DMA verification, decreasing customer onboarding time by 15–20% across global DMA corridors",
+        "Refactored the codebase by cleaning feature flags and removing redundant API calls, improving load times and overall maintainability.",
+        "Accelerated test coverage by 30% using GitHub Copilot, improving delivery speed and developer efficiency"
       ]
     },
     {
-      role: "Web developer",
-      company: "Brimo Software Solution",
-      companylogo: require("./assets/images/brimo_logo.jpeg"),
-      date: "May 2023 – March 2024",
-      desc: "Led holistic management with a focus on tracking client sales, encompassing conversion sessions for various brands, including PLIX.(Frontend and Backend Both)",
+      role: "Software Engineer Intern",
+      company: "Western Union",
+      companylogo: require("./assets/images/WesternUnion.jpg"),
+      date: "Jan 2023 – July 2023",
+      desc: "Frontend Development (React.js/JavaScript/HTML/CSS)",
       descBullets: [
-        "Implemented Kafka in Node.js to track user sessions and page views on an e-commerce store.",
-        "Developed and managed multiple Node.js Cron jobs, achieving a notable 10-15 times enhancement in API performance."
+        "Contributed to a live Admin Portal project, developing 20+ reusable components using React.js and custom CSS, improving UI consistency and delivery speed.",
+        "Implemented role-based access control (RBAC), real-time dashboards, and dynamic filters, enhancing admin workflow efficiency by 15–20%.."
       ]
-    },
-    {
-      role: "Frontend Intern",
-      company: "NoN Community",
-      companylogo: require("./assets/images/now_or_never_logo.jpeg"),
-      date: "Dec 2022 – April 2013",
-      desc: "I interned in a company for 4 months as a front-end developer, where I worked on React to create 30+ components and 20+ hooks, gaining valuable experience in the concepts of web development."
     }
   ]
 };
@@ -209,26 +203,16 @@ const bigProjects = {
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/Shark-Tank.webp"),
+      projectName: " SHARKTANK: DEALHUB",
+      projectDesc:
+        " full-stack investment pitch platform inspired by Shark Tank using MERN stack,",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://saayahealth.com/"
+          url: "https://shark-tank.vercel.app/"
         }
         //  you can add extra buttons here.
-      ]
-    },
-    {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://nextu.se/"
-        }
       ]
     }
   ],
@@ -245,51 +229,51 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "SIH Finalist",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
+        " Finalist– Smart India Hackathon 2022 (MHRD AICTE), selected among top national teams from across India",
+      image: require("./assets/images/SIH.webp"),
+      imageAlt: "SIH Logo",
       footerLink: [
-        {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
-        }
+        // {
+        //   name: "Certification",
+        //   url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
+        // },
+        // {
+        //   name: "Award Letter",
+        //   url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
+        // },
+        // {
+        //   name: "Google Code-in Blog",
+        //   url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+        // }
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "Runner-up at Hack-X",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
+        "Runner-up– Hack-X Hackathon 2022 (NIETNoida), selected among 100+ teams for project GreenCity.",
+      image: require("./assets/images/HackX.webp"),
+      imageAlt: "HackX Logo",
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          // name: "View Google Assistant Action",
+          // url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
         }
       ]
     },
 
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
+      title: "GFG Contest",
+      subtitle: "Global rank 51st in Codechef June Long Challenge 2021.",
+      image: require("./assets/images/GFGContest.webp"),
+      imageAlt: "GFG Logo",
       footerLink: [
-        {name: "Certification", url: ""},
-        {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
-        }
+        // {name: "Certification", url: ""},
+        // {
+        //   name: "Final Project",
+        //   url: "https://pakistan-olx-1.firebaseapp.com/"
+        // }
       ]
     }
   ],
@@ -356,14 +340,14 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Open for new opportunity related to software feild to explore and learn.",
-  number: "+91 8127273162",
-  email_address: "atulverma1520@gmail.com"
+  number: "+91 8979907283",
+  email_address: "mraduldixit2002@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
-  userName: "Atulkum00354545", //Replace "twitter" with your twitter username without @
+  userName: "Mraduldixit111", //Replace "twitter" with your twitter username without @
   display: false // Set true to display this section, defaults to false
 };
 
